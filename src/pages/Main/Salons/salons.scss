@@ -1,0 +1,37 @@
+.salons {
+    background-image: url("/background/BackgroundSalons.png");
+    padding: 100px 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .subtitle {
+        font-size: 21px;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+    .title {
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 45px;
+        text-align: center;
+    }
+    .txt {
+        font-size: 18px;
+        font-weight: 400;
+        width: 730px;
+        text-align: center;
+        margin-bottom: 60px;
+        line-height: 25.2px;
+    }
+    button {
+        padding: 15px 35px;
+        background-color: white;
+        font-size: 18px;
+        font-weight: 500;
+        color: black;
+        border: none;
+        cursor: pointer;
+    }
+}

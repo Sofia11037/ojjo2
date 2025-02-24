@@ -1,0 +1,18 @@
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    width: 1110px;
+    .video {
+        position: relative;
+        width: 555px;
+        height: 300px;
+        .play {
+            position: absolute;
+            bottom: 110px;
+            left: 240px;
+        }
+    }
+    .block-row {
+        height: 300px;
+    }
+}

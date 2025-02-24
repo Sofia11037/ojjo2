@@ -1,0 +1,113 @@
+.newsletter {
+    margin-bottom: 80px;
+    background-image: url("/background/BackgroundSalons.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 0;
+    color: white;
+    .txt {
+        font-size: 21px;
+        font-weight: 400;
+        margin-bottom: 15px;
+    }
+    .title {
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 60px;
+    }
+    .services {
+        margin: 0 40px;
+        width: 1000px;
+        max-width: 100%;
+        display: flex;
+        justify-content: space-between;
+        .offers {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .list {
+                list-style: none;
+                line-height: 40px;
+                li::before {
+                    content: url("/icons/li.svg");
+                    margin-right: 20px;
+                }
+            }
+        }
+        .email {
+            max-width: 100%;
+            min-width: 384px;
+            border: 1px white solid;
+            padding: 14px 15px;
+            .input {
+                max-width: 100%;
+                min-width: 352px;
+                display: flex;
+                justify-content: space-between;
+                background-color: white;
+                max-width: 100%;
+                width: 418px;
+                padding: 20px 22px;
+                input {
+                    max-width: 100%;
+                    width: 200px;
+                    color: #33333380;
+                    border: 1px solid #D6D6D6;
+                    padding: 15px 20px;
+                }
+                button {
+                    // max-width: 100%;
+                    border: none;
+                    width: 159px;
+                    text-align: center;
+                    background: #333333;
+                    color: white;
+                    font-size: 14px;
+                    font-weight: 500;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1047px) {
+    .newsletter {
+        padding: 100px 30px;
+        .txt,
+        .title {
+            text-align: center;
+        }
+        .services {
+            .offers {
+                margin-right: 30px;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .newsletter {
+        .services {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            .offers {
+                margin-bottom: 30px;
+            }
+            .email {
+                .input {
+                    input {
+                        margin-right: 10px;
+                    }
+                    button {
+                        padding: 0 10px;
+                    }
+                }
+            }
+        }
+    }
+}

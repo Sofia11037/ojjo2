@@ -1,0 +1,107 @@
+.cardOfProduct {
+    max-width: 100%;
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.images {
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+    .main-img {
+        max-width: 100%;
+        margin-bottom: 30px;
+        img {
+            padding: 0 20px;
+            max-width: 100%;
+            width: 540px;
+        }
+    }
+    .secondary-cards {
+        width: 500px;
+        max-width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        img {
+            max-width: 100%;
+            width: 160px;
+        }
+    }
+}
+
+.aboutProduct-box {
+    width: 540px;
+    border: 1px solid #D6D6D6;
+    padding: 10px;
+    margin: 0 20px;
+    .aboutProduct {
+        padding: 40px 30px;
+        border: 1px solid #D6D6D6;
+        .title {
+            margin-bottom: 10px;
+        }
+        .text {
+            padding: 30px 0;
+            display: flex;
+            justify-content: space-between;
+            color: #979797;
+            border-bottom: #979797 solid 1px;
+            h5:last-child {
+                margin-right: 100px;
+            }
+        }
+        .desc {
+            padding: 30px 0;
+        }
+        .price {
+            padding-bottom: 30px;
+            color: #333333;
+            font-size: 24px;
+            font-weight: 600;
+        }
+        .buy {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        button {
+            margin-bottom: 10px;
+            span {
+                font-size: 18px;
+            }
+        }
+        .toСart {
+            width: 247px;
+            // margin-left: 30px;
+            color: #333333;
+            border: #333333 solid 1px;
+            background: none;
+            span {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1054px) {
+    .images {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 556px) {
+    .images {
+        .secondary-cards {
+            display: none;
+        }
+    }
+}

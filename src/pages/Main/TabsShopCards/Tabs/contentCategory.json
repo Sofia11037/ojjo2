@@ -1,0 +1,188 @@
+[
+    [{
+            "title": "Кольца",
+            "path": "/tabs/wedding/img_1.png",
+            "id": 1
+        },
+        {
+            "title": "серьги",
+            "path": "/tabs/wedding/img_2.png",
+            "id": 2
+        },
+        {
+            "title": "подвески",
+            "path": "/tabs/wedding/img_3.png",
+            "id": 3
+        },
+        {
+            "title": "запонки",
+            "path": "/tabs/wedding/img_4.png",
+            "id": 4
+        },
+        {
+            "title": "браслеты",
+            "path": "/tabs/wedding/img_5.png",
+            "id": 5
+        },
+        {
+            "title": "часы",
+            "path": "/tabs/wedding/img_6.png",
+            "id": 6
+        }
+    ],
+    [{
+            "title": "Мужу 1",
+            "path": "/tabs/wedding/img_1.png",
+            "id": 1
+        },
+        {
+            "title": "Мужу 2",
+            "path": "/tabs/wedding/img_2.png",
+            "id": 2
+        },
+        {
+            "title": "Мужу 3",
+            "path": "/tabs/wedding/img_3.png",
+            "id": 3
+        },
+        {
+            "title": "Мужу 4",
+            "path": "/tabs/wedding/img_4.png",
+            "id": 4
+        },
+        {
+            "title": "Мужу 5",
+            "path": "/tabs/wedding/img_5.png",
+            "id": 5
+        },
+        {
+            "title": "Мужу 6",
+            "path": "/tabs/wedding/img_6.png",
+            "id": 6
+        }
+    ],
+    [{
+            "title": "Жене 1",
+            "path": "/tabs/wife/img_1.png",
+            "id": 1
+        },
+        {
+            "title": "Жене 2",
+            "path": "/tabs/wife/img_2.png",
+            "id": 2
+        },
+        {
+            "title": "Жене 3",
+            "path": "/tabs/wife/img_3.png",
+            "id": 3
+        },
+        {
+            "title": "Жене 4",
+            "path": "/tabs/wife/img_4.png",
+            "id": 4
+        },
+        {
+            "title": "Жене 5",
+            "path": "/tabs/wife/img_5.png",
+            "id": 5
+        },
+        {
+            "title": "Жене 6",
+            "path": "/tabs/wife/img_6.png",
+            "id": 6
+        }
+    ],
+    [{
+            "title": "Партнеру 1",
+            "path": "/tabs/partner/img_1.png",
+            "id": 1
+        },
+        {
+            "title": "Партнеру 2",
+            "path": "/tabs/partner/img_2.png",
+            "id": 2
+        },
+        {
+            "title": "Партнеру 3",
+            "path": "/tabs/partner/img_3.png",
+            "id": 3
+        },
+        {
+            "title": "Партнеру 4",
+            "path": "/tabs/partner/img_4.png",
+            "id": 4
+        },
+        {
+            "title": "Партнеру 5",
+            "path": "/tabs/partner/img_5.png",
+            "id": 5
+        },
+        {
+            "title": "Партнеру 6",
+            "path": "/tabs/partner/img_6.png",
+            "id": 6
+        }
+    ],
+    [{
+            "title": "Коллекция 1",
+            "path": "/tabs/collection/img_1.png",
+            "id": 1
+        },
+        {
+            "title": "Коллекция 2",
+            "path": "/tabs/collection/img_2.png",
+            "id": 2
+        },
+        {
+            "title": "Коллекция 3",
+            "path": "/tabs/collection/img_3.png",
+            "id": 3
+        },
+        {
+            "title": "Коллекция 4",
+            "path": "/tabs/collection/img_4.png",
+            "id": 4
+        },
+        {
+            "title": "Коллекция 5",
+            "path": "/tabs/collection/img_5.png",
+            "id": 5
+        },
+        {
+            "title": "Коллекция 6",
+            "path": "/tabs/collection/img_6.png",
+            "id": 6
+        }
+    ],
+    [{
+            "title": "Редкость 1",
+            "path": "/tabs/rarity/img_1.png",
+            "id": 1
+        },
+        {
+            "title": "Редкость 2",
+            "path": "/tabs/rarity/img_2.png",
+            "id": 2
+        },
+        {
+            "title": "Редкость 3",
+            "path": "/tabs/rarity/img_3.png",
+            "id": 3
+        },
+        {
+            "title": "Редкость 4",
+            "path": "/tabs/rarity/img_4.png",
+            "id": 4
+        },
+        {
+            "title": "Редкость 5",
+            "path": "/tabs/rarity/img_5.png",
+            "id": 5
+        },
+        {
+            "title": "Редкость 6",
+            "path": "/tabs/rarity/img_6.png",
+            "id": 6
+        }
+    ]
+]

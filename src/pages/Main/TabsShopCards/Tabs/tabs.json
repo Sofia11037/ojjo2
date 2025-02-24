@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Свадьба",
+        "cards": "wedding",
+        "id": 1
+    },
+    {
+        "name": "МУЖУ",
+        "cards": "husband",
+        "id": 2
+    },
+    {
+        "name": "ЖЕНЕ",
+        "cards": "wife",
+        "id": 3
+    },
+    {
+        "name": "партнеру",
+        "cards": "partner",
+        "id": 4
+    },
+    {
+        "name": "коллекции",
+        "cards": "collection",
+        "id": 5
+    },
+    {
+        "name": "редкость",
+        "cards": "rarity",
+        "id": 6
+    }
+]

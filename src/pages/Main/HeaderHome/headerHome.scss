@@ -1,0 +1,41 @@
+.container_haeder {
+    background-image: url("/background/header.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    .title {
+        margin-top: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        margin-bottom: 80px;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 49px;
+        h1 {
+            margin-bottom: 50px;
+        }
+        button {
+            width: 261px;
+            height: 51px;
+            font-size: 18px;
+            font-weight: 500;
+            line-height: 21px;
+            color: white;
+            border: 1px solid rgb(255, 255, 255);
+            background: rgb(51, 51, 51);
+            cursor: pointer;
+        }
+    }
+    .header_footer {
+        border-top: 1px solid white;
+        flex-basis: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

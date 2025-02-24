@@ -1,0 +1,21 @@
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100%;
+    width: 350px;
+    height: 370px;
+    position: relative;
+    .text {
+        position: absolute;
+        bottom: 35px;
+        // width: 206px;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 29.4px;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 0 70px;
+    }
+}

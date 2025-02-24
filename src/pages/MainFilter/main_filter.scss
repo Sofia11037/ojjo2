@@ -1,0 +1,98 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    .line {
+        width: 1200px;
+        border: 1px solid #D6D6D6;
+        margin: 60px 0 30px 0;
+    }
+    .btns {
+        margin-top: 50px;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .search {
+        margin-right: 20px;
+    }
+    button {
+        background-color: #333333;
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21.19px;
+        letter-spacing: 0.1em;
+        padding: 15px 35px;
+        border: none;
+        cursor: pointer;
+    }
+    .clear {
+        margin-top: 0;
+    }
+}
+
+.filter {
+    // z-index: 10;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 100%;
+    width: 1400px;
+    margin: 0 auto;
+    .brand_selector,
+    .price_selector,
+    .for_selector,
+    .collection_selector,
+    .season_selector {
+        // z-index: 10px;
+        position: relative;
+        width: 190px;
+        border-bottom: 1px solid #D6D6D6;
+        padding: 10px 3px;
+        text-align: left;
+        cursor: pointer;
+        &::after {
+            content: url(/public/triangle/triangle.svg);
+            position: absolute;
+            right: 0px;
+        }
+    }
+    .brand_options,
+    .price_options,
+    .for_options,
+    .collection_options,
+    .season_options {
+        z-index: 10;
+        width: 190px;
+        position: absolute;
+        background-color: #dfdfe9;
+        text-align: center;
+        option {
+            padding: 15px 20px;
+            &:hover {
+                cursor: pointer;
+                background-color: #c4c1df;
+            }
+        }
+        .true {
+            color: #c01c1c;
+        }
+    }
+}
+
+@media (max-width: 1089px) {
+    .filter {
+        .brand,
+        .price,
+        .for,
+        .collection,
+        .season {
+            margin: 20px 20px 0 20px;
+        }
+    }
+}

@@ -1,0 +1,43 @@
+.path {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #333333;
+    a {
+        text-decoration: underline;
+    }
+    p::before {
+        content: "/";
+        padding: 15px;
+    }
+    p:first-child::before {
+        content: "";
+    }
+    .last {
+        text-decoration: none;
+    }
+}
+
+.more-box {
+    margin: 120px 20px 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    .subtitle {
+        font-weight: 400;
+        font-size: 21px;
+        margin-bottom: 15px;
+    }
+    .title {
+        font-weight: 700;
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1054px) {
+    .path {
+        display: none;
+    }
+}

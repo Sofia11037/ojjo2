@@ -1,0 +1,44 @@
+.about {
+    margin-top: 150px;
+    width: 920px;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    .text {
+        width: 540px;
+        height: 240px;
+        .back {
+            position: absolute;
+            width: 540px;
+            height: 210px;
+            background: linear-gradient(180deg, rgba(249, 249, 249, 0) 0%, #ffffff 82.29%);
+            &.hidden {
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+        .txt {
+            margin-bottom: 10px;
+        }
+        .more {
+            font-size: 20px;
+            border-bottom: 1px #333333 dotted;
+            width: 212px;
+            cursor: pointer;
+        }
+    }
+}
+
+@media (max-width:816px) {
+    .ways {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width:587px) {
+    .about {
+        display: none;
+    }
+}

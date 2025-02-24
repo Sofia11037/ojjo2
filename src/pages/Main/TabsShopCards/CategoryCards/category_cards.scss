@@ -1,0 +1,8 @@
+.container_cards {
+    display: flex;
+    flex-wrap: wrap;
+    // grid-template-columns: repeat(auto-fit, minmax(260px, 350px));
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}

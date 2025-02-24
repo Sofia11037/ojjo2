@@ -1,0 +1,227 @@
+[{
+        "id": 1,
+        "brand": "Van Cleef & Arpels",
+        "price": "100$",
+        "forWho": "Для подруги",
+        "img": "/public/image/img.png",
+        "collection": "Подвески",
+        "season": "Зимняя сказка"
+    },
+    {
+        "id": 2,
+        "brand": "Cartier",
+        "price": "500$",
+        "forWho": "Для жены",
+        "img": "/public/image/ring.jpg",
+        "collection": "Кольца",
+        "season": "Фестивальная магия"
+    },
+    {
+        "id": 3,
+        "brand": "de Grisogono",
+        "price": "1500$",
+        "forWho": "Для жены",
+        "img": "/public/image/ozherele.jpg",
+        "collection": "Ожерелья",
+        "season": "Зимняя сказка"
+    },
+    {
+        "id": 4,
+        "brand": "Boucheron",
+        "price": "1000$",
+        "forWho": "Для друга",
+        "img": "/public/image/ring.jpg",
+        "collection": "Кольца",
+        "season": "Осенняя теплотa"
+    },
+
+    {
+        "id": 5,
+        "brand": "Cartier",
+        "price": "100$",
+        "forWho": "Для мужа",
+        "img": "/public/image/img.png",
+        "collection": "Подвески",
+        "season": "Весенняя свежесть"
+    },
+    {
+        "id": 6,
+        "brand": "Boucheron",
+        "price": "1500$",
+        "forWho": "Для отца",
+        "img": "/public/image/ozherele.jpg",
+        "collection": "Ожерелья",
+        "season": "Осенняя теплотa"
+    },
+    {
+        "id": 7,
+        "brand": "de Grisogono",
+        "price": "1500$",
+        "forWho": "Для друга",
+        "img": "/public/image/img.png",
+        "collection": "Подвески",
+        "season": "Осенняя теплотa"
+    },
+    {
+        "id": 8,
+        "brand": "Cartier",
+        "price": "100$",
+        "forWho": "Для мамы",
+        "img": "/public/image/img.png",
+        "collection": "Подвески",
+        "season": "Фестивальная магия"
+    },
+    {
+        "id": 9,
+        "brand": "Boucheron",
+        "price": "1500$",
+        "forWho": "Для подруги",
+        "img": "/public/image/ring.jpg",
+        "collection": "Кольца",
+        "season": "Весенняя свежесть"
+    },
+    {
+        "id": 10,
+        "brand": "de Grisogono",
+        "price": "100$",
+        "forWho": "Для жены",
+        "img": "/public/image/ozherele.jpg",
+        "collection": "Ожерелья",
+        "season": "Фестивальная магия"
+    },
+    {
+        "id": 11,
+        "brand": "Cartier",
+        "price": "1500$",
+        "forWho": "Для подруги",
+        "img": "/public/image/ring.jpg",
+        "collection": "Кольцо",
+        "season": "Осенняя теплотa"
+    },
+    {
+        "id": 12,
+        "brand": "Boucheron",
+        "price": "1500$",
+        "forWho": "Для друга",
+        "img": "/public/image/img.png",
+        "collection": "Подвески",
+        "season": "Летний блеск"
+    },
+    {
+        "id": 13,
+        "brand": "de Grisogono",
+        "price": "500$",
+        "forWho": "Для мужа",
+        "img": "/public/image/ozherele.jpg",
+        "collection": "Ожерелья",
+        "season": "Осенняя теплотa"
+    },
+    {
+        "id": 14,
+        "brand": "Cartier",
+        "price": "1000$",
+        "forWho": "Для жены",
+        "img": "/public/image/ring.jpg",
+        "collection": "Кольца",
+        "season": "Зимняя сказка"
+    },
+    {
+        "id": 15,
+        "brand": "Boucheron",
+        "price": "1500$",
+        "forWho": "Для мамы",
+        "img": "/public/image/img.png",
+        "collection": "Подвески",
+        "season": "Осенняя теплотa"
+    },
+    {
+        "id": 16,
+        "brand": "de Grisogono",
+        "price": "1500$",
+        "forWho": "Для подруги",
+        "img": "/public/image/ozherele.jpg",
+        "collection": "Ожерелья",
+        "season": "Зимняя сказка"
+    },
+    {
+        "id": 17,
+        "brand": "Cartier",
+        "price": "1000$",
+        "forWho": "Для друга",
+        "img": "/public/image/img.png",
+        "collection": "Подвески",
+        "season": "Зимняя сказка"
+    },
+    {
+        "id": 18,
+        "brand": "Boucheron",
+        "price": "1000$",
+        "forWho": "Для подруги",
+        "img": "/public/image/ring.jpg",
+        "collection": "Кольца",
+        "season": "Летний блеск"
+    },
+    {
+        "id": 19,
+        "brand": "de Grisogono",
+        "price": "1500$",
+        "forWho": "Для друга",
+        "img": "/public/image/ozherele.jpg",
+        "collection": "Ожерелья",
+        "season": "Фестивальная магия"
+    },
+    {
+        "id": 20,
+        "brand": "Cartier",
+        "price": "500$",
+        "forWho": "Для подруги",
+        "img": "/public/image/ozherele.jpg",
+        "collection": "Ожерелья",
+        "season": "Зимняя сказка"
+    },
+    {
+        "id": 21,
+        "brand": "Boucheron",
+        "price": "1000$",
+        "forWho": "Для отца",
+        "img": "/public/image/ozherele.jpg",
+        "collection": "Ожерелья",
+        "season": "Летний блеск"
+    },
+    {
+        "id": 22,
+        "brand": "de Grisogono",
+        "price": "1500$",
+        "forWho": "Для жены",
+        "img": "/public/image/ozherele.jpg",
+        "collection": "Ожерелья",
+        "season": "Весенняя свежесть"
+    },
+    {
+        "id": 23,
+        "brand": "Cartier",
+        "price": "1500$",
+        "forWho": "Для мужа",
+        "img": "/public/image/ring.jpg",
+        "collection": "Кольца",
+        "season": "Весенняя свежесть"
+    },
+    {
+        "id": 24,
+        "brand": "Boucheron",
+        "price": "1500$",
+        "forWho": "Для жены",
+        "img": "/public/image/ring.jpg",
+        "collection": "Кольца",
+        "season": "Фестивальная магия"
+    },
+    {
+        "id": 25,
+        "brand": "de Grisogono",
+        "price": "1500$",
+        "forWho": "Для мужа",
+        "img": "/public/image/ring.jpg",
+        "collection": "Кольца",
+        "season": "Летний блеск"
+    }
+]
